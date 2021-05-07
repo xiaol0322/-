@@ -11,7 +11,8 @@ namespace 测试Git
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string str = "123";
+            Response.Write(str);
         }
     }
 }
